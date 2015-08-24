@@ -1,0 +1,455 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18AC857B1B8B550C00F756CA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AC857A1B8B550C00F756CA /* main.m */; };
+		18AC857E1B8B550C00F756CA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AC857D1B8B550C00F756CA /* AppDelegate.m */; };
+		18AC85811B8B550C00F756CA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AC85801B8B550C00F756CA /* ViewController.m */; };
+		18AC85841B8B550C00F756CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18AC85821B8B550C00F756CA /* Main.storyboard */; };
+		18AC85861B8B550C00F756CA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18AC85851B8B550C00F756CA /* Images.xcassets */; };
+		18AC85891B8B550C00F756CA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18AC85871B8B550C00F756CA /* LaunchScreen.xib */; };
+		18AC85951B8B550D00F756CA /* KiddishMathTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AC85941B8B550D00F756CA /* KiddishMathTests.m */; };
+		18AC85A31B8B55DC00F756CA /* FinalScoreVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AC85A01B8B55DC00F756CA /* FinalScoreVC.m */; };
+		18AC85A41B8B55DC00F756CA /* TimeBattleVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AC85A21B8B55DC00F756CA /* TimeBattleVC.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18AC858F1B8B550C00F756CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18AC856D1B8B550C00F756CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18AC85741B8B550C00F756CA;
+			remoteInfo = KiddishMath;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18AC85751B8B550C00F756CA /* KiddishMath.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KiddishMath.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18AC85791B8B550C00F756CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18AC857A1B8B550C00F756CA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18AC857C1B8B550C00F756CA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18AC857D1B8B550C00F756CA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18AC857F1B8B550C00F756CA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		18AC85801B8B550C00F756CA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		18AC85831B8B550C00F756CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18AC85851B8B550C00F756CA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		18AC85881B8B550C00F756CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		18AC858E1B8B550C00F756CA /* KiddishMathTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KiddishMathTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18AC85931B8B550D00F756CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18AC85941B8B550D00F756CA /* KiddishMathTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KiddishMathTests.m; sourceTree = "<group>"; };
+		18AC859F1B8B55DC00F756CA /* FinalScoreVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FinalScoreVC.h; sourceTree = "<group>"; };
+		18AC85A01B8B55DC00F756CA /* FinalScoreVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FinalScoreVC.m; sourceTree = "<group>"; };
+		18AC85A11B8B55DC00F756CA /* TimeBattleVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeBattleVC.h; sourceTree = "<group>"; };
+		18AC85A21B8B55DC00F756CA /* TimeBattleVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeBattleVC.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18AC85721B8B550C00F756CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18AC858B1B8B550C00F756CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18AC856C1B8B550C00F756CA = {
+			isa = PBXGroup;
+			children = (
+				18AC85771B8B550C00F756CA /* KiddishMath */,
+				18AC85911B8B550C00F756CA /* KiddishMathTests */,
+				18AC85761B8B550C00F756CA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18AC85761B8B550C00F756CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18AC85751B8B550C00F756CA /* KiddishMath.app */,
+				18AC858E1B8B550C00F756CA /* KiddishMathTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18AC85771B8B550C00F756CA /* KiddishMath */ = {
+			isa = PBXGroup;
+			children = (
+				18AC859E1B8B55DC00F756CA /* TimeBatlle */,
+				18AC857C1B8B550C00F756CA /* AppDelegate.h */,
+				18AC857D1B8B550C00F756CA /* AppDelegate.m */,
+				18AC857F1B8B550C00F756CA /* ViewController.h */,
+				18AC85801B8B550C00F756CA /* ViewController.m */,
+				18AC85821B8B550C00F756CA /* Main.storyboard */,
+				18AC85851B8B550C00F756CA /* Images.xcassets */,
+				18AC85871B8B550C00F756CA /* LaunchScreen.xib */,
+				18AC85781B8B550C00F756CA /* Supporting Files */,
+			);
+			path = KiddishMath;
+			sourceTree = "<group>";
+		};
+		18AC85781B8B550C00F756CA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18AC85791B8B550C00F756CA /* Info.plist */,
+				18AC857A1B8B550C00F756CA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18AC85911B8B550C00F756CA /* KiddishMathTests */ = {
+			isa = PBXGroup;
+			children = (
+				18AC85941B8B550D00F756CA /* KiddishMathTests.m */,
+				18AC85921B8B550D00F756CA /* Supporting Files */,
+			);
+			path = KiddishMathTests;
+			sourceTree = "<group>";
+		};
+		18AC85921B8B550D00F756CA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18AC85931B8B550D00F756CA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18AC859E1B8B55DC00F756CA /* TimeBatlle */ = {
+			isa = PBXGroup;
+			children = (
+				18AC859F1B8B55DC00F756CA /* FinalScoreVC.h */,
+				18AC85A01B8B55DC00F756CA /* FinalScoreVC.m */,
+				18AC85A11B8B55DC00F756CA /* TimeBattleVC.h */,
+				18AC85A21B8B55DC00F756CA /* TimeBattleVC.m */,
+			);
+			path = TimeBatlle;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18AC85741B8B550C00F756CA /* KiddishMath */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18AC85981B8B550D00F756CA /* Build configuration list for PBXNativeTarget "KiddishMath" */;
+			buildPhases = (
+				18AC85711B8B550C00F756CA /* Sources */,
+				18AC85721B8B550C00F756CA /* Frameworks */,
+				18AC85731B8B550C00F756CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KiddishMath;
+			productName = KiddishMath;
+			productReference = 18AC85751B8B550C00F756CA /* KiddishMath.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18AC858D1B8B550C00F756CA /* KiddishMathTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18AC859B1B8B550D00F756CA /* Build configuration list for PBXNativeTarget "KiddishMathTests" */;
+			buildPhases = (
+				18AC858A1B8B550C00F756CA /* Sources */,
+				18AC858B1B8B550C00F756CA /* Frameworks */,
+				18AC858C1B8B550C00F756CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18AC85901B8B550C00F756CA /* PBXTargetDependency */,
+			);
+			name = KiddishMathTests;
+			productName = KiddishMathTests;
+			productReference = 18AC858E1B8B550C00F756CA /* KiddishMathTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18AC856D1B8B550C00F756CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = Rahul;
+				TargetAttributes = {
+					18AC85741B8B550C00F756CA = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					18AC858D1B8B550C00F756CA = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 18AC85741B8B550C00F756CA;
+					};
+				};
+			};
+			buildConfigurationList = 18AC85701B8B550C00F756CA /* Build configuration list for PBXProject "KiddishMath" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18AC856C1B8B550C00F756CA;
+			productRefGroup = 18AC85761B8B550C00F756CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18AC85741B8B550C00F756CA /* KiddishMath */,
+				18AC858D1B8B550C00F756CA /* KiddishMathTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18AC85731B8B550C00F756CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18AC85841B8B550C00F756CA /* Main.storyboard in Resources */,
+				18AC85891B8B550C00F756CA /* LaunchScreen.xib in Resources */,
+				18AC85861B8B550C00F756CA /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18AC858C1B8B550C00F756CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18AC85711B8B550C00F756CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18AC85A31B8B55DC00F756CA /* FinalScoreVC.m in Sources */,
+				18AC85811B8B550C00F756CA /* ViewController.m in Sources */,
+				18AC857E1B8B550C00F756CA /* AppDelegate.m in Sources */,
+				18AC85A41B8B55DC00F756CA /* TimeBattleVC.m in Sources */,
+				18AC857B1B8B550C00F756CA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18AC858A1B8B550C00F756CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18AC85951B8B550D00F756CA /* KiddishMathTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18AC85901B8B550C00F756CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18AC85741B8B550C00F756CA /* KiddishMath */;
+			targetProxy = 18AC858F1B8B550C00F756CA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18AC85821B8B550C00F756CA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18AC85831B8B550C00F756CA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18AC85871B8B550C00F756CA /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18AC85881B8B550C00F756CA /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18AC85961B8B550D00F756CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		18AC85971B8B550D00F756CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18AC85991B8B550D00F756CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KiddishMath/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		18AC859A1B8B550D00F756CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KiddishMath/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		18AC859C1B8B550D00F756CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = KiddishMathTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KiddishMath.app/KiddishMath";
+			};
+			name = Debug;
+		};
+		18AC859D1B8B550D00F756CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = KiddishMathTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KiddishMath.app/KiddishMath";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18AC85701B8B550C00F756CA /* Build configuration list for PBXProject "KiddishMath" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18AC85961B8B550D00F756CA /* Debug */,
+				18AC85971B8B550D00F756CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18AC85981B8B550D00F756CA /* Build configuration list for PBXNativeTarget "KiddishMath" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18AC85991B8B550D00F756CA /* Debug */,
+				18AC859A1B8B550D00F756CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18AC859B1B8B550D00F756CA /* Build configuration list for PBXNativeTarget "KiddishMathTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18AC859C1B8B550D00F756CA /* Debug */,
+				18AC859D1B8B550D00F756CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18AC856D1B8B550C00F756CA /* Project object */;
+}
